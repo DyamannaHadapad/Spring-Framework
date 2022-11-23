@@ -1,0 +1,14 @@
+com\xworkz\springframework\entity\Bag.class
+com\xworkz\springframework\entity\Company.class
+com\xworkz\springframework\entity\Cycle.class
+com\xworkz\springframework\entity\Food.class
+com\xworkz\springframework\entity\Mobile.class
+com\xworkz\springframework\entity\Bed.class
+com\xworkz\springframework\entity\Helmet.class
+com\xworkz\springframework\entity\SlipperEntity.class
+com\xworkz\springframework\entity\IronBox.class
+com\xworkz\springframework\configuration\SlipperConfiguration.class
+com\xworkz\springframework\entity\Bike.class
+com\xworkz\springframework\entity\Car.class
+com\xworkz\springframework\boot\SlipperRunner.class
+com\xworkz\springframework\entity\Bottel.class
