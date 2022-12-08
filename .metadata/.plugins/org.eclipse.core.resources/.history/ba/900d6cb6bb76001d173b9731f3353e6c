@@ -1,0 +1,9 @@
+package com.xworkz.web.configuration;
+
+public class SpringConfiguration {
+	
+	public SpringConfiguration() {
+		System.out.println("created defult constr of SpringConfiguration");
+	}
+
+}

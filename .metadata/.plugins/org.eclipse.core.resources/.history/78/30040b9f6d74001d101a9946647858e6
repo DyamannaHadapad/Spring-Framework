@@ -1,0 +1,15 @@
+package com.xworkz.spring.bean;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class UnionTerritories {
+		@Autowired
+		private Lakshadweep lakshadeep;
+		@Autowired
+		private AndamanAndNicobar andamanAndaaNicobar;
+		@Override
+		public String toString() {
+			return "UnionTerritories [lakshadeep=" + lakshadeep + ", andamanAndaaNicobar=" + andamanAndaaNicobar + "]";
+		}
+}

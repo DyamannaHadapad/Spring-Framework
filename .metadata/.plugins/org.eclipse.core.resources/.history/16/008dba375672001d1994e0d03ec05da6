@@ -1,0 +1,26 @@
+package com.xworkz.spring.configuration;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan("com.xworkz.spring")
+public class SpringConfiguration {
+
+	@Bean
+	public String firstName() {
+		return "Dropadi Murmuuu";
+	}
+
+	@Bean
+	public String middleName() {
+		return "Dropadi Murmuuu";
+	}
+
+	@Bean
+	public String lastName() {
+		return "Dropadi Murmuuu";
+	}
+
+}

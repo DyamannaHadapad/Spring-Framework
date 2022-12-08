@@ -1,0 +1,13 @@
+package com.xworkz.beans.bean;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Judge {
+
+	private String name;
+	private int age;
+	private double salary;
+	private double experience;
+
+}

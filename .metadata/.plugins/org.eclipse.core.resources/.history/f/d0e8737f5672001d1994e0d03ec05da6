@@ -1,0 +1,11 @@
+package com.xworkz.spring.bean.enumclasses;
+
+public enum Type {
+	
+	private Type() {
+		// TODO Auto-generated constructor stub
+	}
+
+	PERSON, PLACE;
+
+}

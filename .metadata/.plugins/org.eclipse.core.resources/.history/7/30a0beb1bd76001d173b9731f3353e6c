@@ -1,0 +1,5 @@
+package com.xworkz.web.bean;
+
+public class House {
+
+}

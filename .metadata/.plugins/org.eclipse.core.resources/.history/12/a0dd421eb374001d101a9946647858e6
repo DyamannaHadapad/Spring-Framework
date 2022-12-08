@@ -1,0 +1,6 @@
+package com.xworkz.abstraction.service;
+
+public interface SimService {
+
+	boolean validateAndSave(SimDTO dto);
+}

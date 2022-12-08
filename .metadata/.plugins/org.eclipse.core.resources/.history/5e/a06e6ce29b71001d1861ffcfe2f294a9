@@ -1,0 +1,20 @@
+package com.xworkz.beans.bean;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Court {
+
+	private String name;
+	private String type;
+	private String place;
+	private int noOfCourts;
+	private Judge judge;
+
+	public Court() {
+		System.out.println("defult constr of court.....");
+	}
+	
+	
+
+}

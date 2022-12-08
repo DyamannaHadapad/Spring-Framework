@@ -1,0 +1,13 @@
+package com.xworkz.spring.bean;
+
+import com.xworkz.spring.bean.enumclasses.Type;
+
+public class Name {
+
+	private String firstName;
+	private String middleName;
+	private String lastName;
+	private Type type;
+	private String value;
+
+}

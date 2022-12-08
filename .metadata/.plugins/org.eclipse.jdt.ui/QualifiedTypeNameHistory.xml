@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.beans.BeanProperty"/>
+    <fullyQualifiedTypeName name="com.xworkz.springframework.entity.Bike"/>
+    <fullyQualifiedTypeName name="com.xworkz.springframework.configuration.SlipperConfiguration"/>
+    <fullyQualifiedTypeName name="com.xworkz.springframework.entity.SlipperEntity"/>
+    <fullyQualifiedTypeName name="com.xworkz.springframework.entity.Bag"/>
+    <fullyQualifiedTypeName name="com.xworkz.beans.configuration.SpringConfiguration"/>
+    <fullyQualifiedTypeName name="com.xworkz.beans.bean.Judge"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="com.xworkz.beans.bean.Court"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.xworkz.spring.bean.enumclasses.Type"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.xworkz.spring.configuration.SpringConfiguration"/>
+    <fullyQualifiedTypeName name="com.sun.beans.introspect.PropertyInfo.Name"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="com.xworkz.spring.bean.Name"/>
+</qualifiedTypeNameHistroy>

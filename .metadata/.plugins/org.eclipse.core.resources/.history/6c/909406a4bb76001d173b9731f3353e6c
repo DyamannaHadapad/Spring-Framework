@@ -1,0 +1,5 @@
+package com.xworkz.web.configuration;
+
+public class SpringConfiguration {
+
+}

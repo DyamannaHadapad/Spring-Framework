@@ -1,0 +1,37 @@
+package com.xworkz.beans.bean;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Court {
+
+	@Autowired
+	private String name;
+	
+	private String type;
+	@Autowired
+	private String place;
+	@Value("25")
+	private int noOfCourts;
+	@Autowired
+	private Judge judge;
+
+	public Court(String place) {
+		System.out.println(" constr of court.....");
+		this.place = place;
+	}
+
+	@Autowired
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	@Override
+	public String toString() {
+		return "Court [name=" + name + ", type=" + type + ", place=" + place + ", noOfCourts=" + noOfCourts + ", judge="
+				+ judge + "]";
+	}
+
+}

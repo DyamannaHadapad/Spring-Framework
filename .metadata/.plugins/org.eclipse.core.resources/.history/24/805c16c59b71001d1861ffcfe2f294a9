@@ -1,0 +1,16 @@
+package com.xworkz.beans.runner;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.xworkz.beans.configuration.SpringConfiguration;
+
+public class CourtRunner {
+
+	public static void main(String[] args) {
+
+		ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfiguration.class);
+
+	}
+
+}

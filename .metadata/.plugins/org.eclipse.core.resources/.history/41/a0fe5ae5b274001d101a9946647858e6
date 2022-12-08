@@ -1,0 +1,13 @@
+package com.xworkz.abstraction.repository;
+
+import com.xworkz.abstraction.dto.SimDTO;
+
+public class SimRepositoryImpl implements SimRepository {
+
+	@Override
+	public boolean validateAndSave(SimDTO dto) {
+		System.out.println();
+		return true;
+	}
+
+}
