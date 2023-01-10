@@ -1,9 +1,0 @@
-package com.xworkz.web.bean;
-
-public class Multiplex {
-	public Multiplex() {
-		System.out.println("running multiplex defult constr");
-
-	}
-
-}

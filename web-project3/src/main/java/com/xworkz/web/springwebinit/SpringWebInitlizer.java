@@ -1,10 +1,13 @@
 package com.xworkz.web.springwebinit;
 
+import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 import com.xworkz.web.configuration.SpringConfiguration;
 
-public class SpringWebInitlizer extends AbstractAnnotationConfigDispatcherServletInitializer {
+public class SpringWebInitlizer extends AbstractAnnotationConfigDispatcherServletInitializer
+		implements WebMvcConfigurer {
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
@@ -21,7 +24,13 @@ public class SpringWebInitlizer extends AbstractAnnotationConfigDispatcherServle
 	@Override
 	protected String[] getServletMappings() {
 		System.out.println("running getServletMappings");
-		return null;
+		return new String[] { "/" };
+	}
+
+	@Override
+	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+		System.out.println("configureDefaultServletHandling");
+		configurer.enable();
 	}
 
 }

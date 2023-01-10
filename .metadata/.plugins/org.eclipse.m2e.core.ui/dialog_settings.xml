@@ -7,6 +7,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="bike"/>
+			<item value="temple"/>
 			<item value="spring-framework-day-5"/>
 			<item value="beans"/>
 			<item value="framework"/>

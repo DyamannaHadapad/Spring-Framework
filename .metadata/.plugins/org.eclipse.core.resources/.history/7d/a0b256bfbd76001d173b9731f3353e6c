@@ -1,8 +1,0 @@
-package com.xworkz.web.bean;
-
-public class House {
-
-	public House() {
-		System.out.println("defult constr of house");
-	}
-}

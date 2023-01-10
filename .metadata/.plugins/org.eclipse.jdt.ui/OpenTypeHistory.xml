@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=web-project2/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.web.service{ChappalService.java[ChappalService" modifiers="513" timestamp="1670860833557"/>
+    <typeInfo handle="=web-project2/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.web.repository{ChappalRepository.java[ChappalRepository" modifiers="513" timestamp="1670860968481"/>
+    <typeInfo handle="=web-project/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.web.service{IceCreamService.java[IceCreamService" modifiers="513" timestamp="1671299466717"/>
+    <typeInfo handle="=web-project/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.web.reposiory{IceCreamRepository.java[IceCreamRepository" modifiers="513" timestamp="1671299534194"/>
+    <typeInfo handle="=bike/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.bike.repository{BikeRepository.java[BikeRepository" modifiers="513" timestamp="1670954352264"/>
+    <typeInfo handle="=bike/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.bike.service{BikeService.java[BikeService" modifiers="513" timestamp="1670954310098"/>
+</typeInfoHistroy>

@@ -1,7 +1,0 @@
-package com.xworkz.spring.bean.enumclasses;
-
-public enum Type {
-	
-	"PERSON","PLACE";
-
-}
